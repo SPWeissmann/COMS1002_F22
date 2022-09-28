@@ -1,9 +1,8 @@
 #The bicycle module contains functions relating to bicycles 
 
-
 def ride(loc, distance, direction):
     x,y = loc #list expansion. Assigns x = loc[0] and y = loc[1].
-    
+
     if direction == "north":
         y += distance
     elif direction == "east":
@@ -15,3 +14,4 @@ def ride(loc, distance, direction):
 
     location = [x,y]
     return location
+    
