@@ -1,5 +1,5 @@
 # The subway module contains functions relating to subways
-import random as r
+from random import choice #makes choice function from random module available
 LINES = ["A","B","C","D"] 
 
 def ride(loc, line, direction):
@@ -18,3 +18,8 @@ def ride(loc, line, direction):
     
     location = [x,y]
     return location
+
+def next_train(loc):
+    line = choice(LINES)
+    direction = choice(["up","down"])
+    return ride(loc, line, direction)
