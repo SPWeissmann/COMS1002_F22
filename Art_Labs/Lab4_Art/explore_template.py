@@ -1,5 +1,5 @@
 '''
-Sam Weissmann
+Samuel Weissmann
 spw2136 
 
 A program that lets the user explore NYC
@@ -32,6 +32,7 @@ def main ():
 
     return None
 
+#displays a menu of the different transportation options to the user
 def display_menu():
     print("TRANSIT OPTIONS: ")
     print("1) Ride subway")
