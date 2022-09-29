@@ -16,7 +16,7 @@ functions
 * conceptual: discuss flow of information and control on function call
 
 Lab 4
-* Discuss explore.py and subway.py
+* Walk through explore.py and subway.py
   * how to define/write a function
     * header, parameters/arguments, default parameters
     * body, scope
