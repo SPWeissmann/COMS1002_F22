@@ -34,7 +34,7 @@ def main ():
 
 #displays a menu of the different transportation options to the user
 def display_menu():
-    print("TRANSIT OPTIONS: ")
+    print("TRANSPORTATION OPTIONS: ")
     print("1) Ride subway")
     print("4) Quit")
     return None
