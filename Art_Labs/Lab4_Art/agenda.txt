@@ -1,0 +1,24 @@
+Sam Weissmann
+spw2136
+
+PLEASE SIGN IN WITH YOUR NAME + UNI BY DOOR
+
+AGENDA 
+* before starting 
+* * stress
+* * break statements (do not use)
+
+* functions 
+* * why functions? 
+* * libraries, modules, importing
+* * global variables (don't use)
+* * return statement
+* * * omitting return, omitting return value, return none, return 0
+
+* Lab 4 
+* * explore.py
+* * subway.py module 
+* * write bicycle.py module 
+* * creating your own module 
+
+* Questions?
