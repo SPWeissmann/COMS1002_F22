@@ -11,7 +11,7 @@ def main ():
     location = [0,0] #starting location
 
     choice = 0 #controls the while loop
-    while choice != 4:
+    while choice != 3:
         #print user status 
         print("You are located at: ", location, sep="")
         print("Remaining energy: ", energy, "%", sep="")
@@ -37,7 +37,7 @@ def main ():
 def display_menu():
     print("TRANSPORTATION OPTIONS: ")
     print("1) Ride Bicycle")
-    print("4) Quit")
+    print("3) Quit")
     return None
 
 #call main function to run the program
