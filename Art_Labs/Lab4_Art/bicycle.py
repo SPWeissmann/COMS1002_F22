@@ -14,4 +14,3 @@ def ride(loc, distance, direction):
 
     location = [x,y]
     return location
-    
