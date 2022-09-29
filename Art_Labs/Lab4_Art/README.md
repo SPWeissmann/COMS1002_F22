@@ -1,5 +1,26 @@
 # Art Section Lab 4 Guide
-Written by Samuel Weissmann (spw2136) 
+For COMS 1002 Computing In Context  
+Author: Samuel Weissmann (spw2136) 
+
+TABLE OF CONTENTS  
+[1. Functions](#1-functions)  
+[1.1. Why Functions?](#11-why-functions)  
+[1.2. Defining Functions](#12-defining-functions)  
+[1.3. Parameters and Arguments](#13-parameters-and-arguments)  
+[1.3.1. Default Arguments](#131-default-arguments)  
+[1.4. Return Statements](#14-return-statements)  
+[1.4.1 Print Vs. Return](#141-print-vs-return)  
+
+[2. Modules](#2-modules)  
+[2.1. Importing](#21-importing)  
+
+[3. Lab Assignment](#3-lab-assignment)  
+[3.1. Module Specifications](#31-module-specifications)  
+[3.1.1. new_transit.py](#311-newtransitpy)  
+[3.2. explore.py](#32-explorepy)  
+
+[4. What to Submit](#4-what-to-submit)
+
 
 ## 1. Functions
 In Python, functions allow you to run a predefined block of code simply by calling the function wherever you need that code to execute in your program. A function is able to recieve data to use and return some data back to the place where it was originally called. Python has many built-in functions, some of which you should already by familiar with such as `range` and `sum`. Python also allows users to write their own functions, which is what we'll be doing today. 
