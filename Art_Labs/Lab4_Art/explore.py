@@ -6,6 +6,7 @@ A program that lets the user explore NYC
 '''
 import subway
 import bicycle as bike
+#import new_transit as 
 
 def main ():
     fare = 100 #decrease as one rides public transit 
@@ -25,7 +26,7 @@ def main ():
                 location = subway.ride(location, line, direction) #update location
             else:
                 print("Insufficient fare")
-                
+
         elif choice == 2: #riding a bicycle
             distance = int(input("Enter the number of blocks to ride: "))
             direction = input("Pick a direction (n, s, e, or w): ")
