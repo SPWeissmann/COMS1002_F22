@@ -1,6 +1,6 @@
 # Art Section Lab 4 Guide
 For COMS 1002 Computing In Context  
-Author: Samuel Weissmann (spw2136)
+Author: Samuel Weissmann (spw2136)  
 Codesigned with Prof. Mark Santolucito
 
 TABLE OF CONTENTS  
