@@ -1,5 +1,5 @@
 # Art Section Lab 4 Guide
-Written by Samuel Weissmann (spw2136) 
+Author: Samuel Weissmann (spw2136)
 
 ## 1. Functions
 In Python, functions allow you to run a predefined block of code simply by calling the function wherever you need that code to execute in your program. A function is able to recieve data to use and return some data back to the place where it was originally called. Python has many built-in functions, some of which you should already by familiar with such as `range` and `sum`. Python also allows users to write their own functions, which is what we'll be doing today. 
