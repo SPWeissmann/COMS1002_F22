@@ -16,17 +16,16 @@ functions
 * conceptual: discuss flow of information and control on function call
 
 Lab 4
-* Walk through explore.py and subway.py
+* Walk through explore.py and bicycle.py
   * how to define/write a function
     * header, parameters/arguments, default parameters
     * body, scope
     * return statement
       * omitting return, omitting return value, return none, return 0
 * concrete: review flow of control and information on function call through 
-  parameters and return statements in context of explore.py and subway.py
+  parameters and return statements in context of explore.py and bicycle.py
 
-* write bicycle.py module  
-* update explore.py to implement bicycle.py
-* creating your own module (new_transit.py)
+* creating own module (new_transit.py)
+* explore_example.py with subway.py and bicycle.py are an example of finished lab
 
 Questions?
