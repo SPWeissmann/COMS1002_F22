@@ -14,26 +14,18 @@ def main ():
     location = [0,0] #starting location
 
     choice = 0 #controls the while loop
-    while choice != 4:
+    while choice != 3:
         #print user status 
         print("You are located at: ", location, sep="")
-        print("Remaining fare: $", remaining_fare, sep="")
         print("Remaining energy: ", energy, "%", sep="")
+        print("Remaining fare: $", remaining_fare, sep="")
 
         #get user input
         display_menu()
         choice = int(input("Select an option: "))
 
-        #use chosen transportation method
-        if choice == 1: #riding subway
-            line = input("Pick a line to ride (A, B, C, or D): ")
-            direction = input("Pick a direction to ride (up or down): ")
-            if remaining_fare >= 2.75:
-                remaining_fare -= 2.75 #deduct fare
-                location = subway.ride(location, line, direction) #update location
-            else:
-                print("Insufficient fare")
-        elif choice == 2: #riding a bicycle
+         #use chosen transportation method
+        if choice == 1: #riding a bicycle
             distance = int(input("Enter the number of blocks to ride: "))
             direction = input("Pick a direction (n, s, e, or w): ")
             energy_expended = 0.5 * distance
@@ -42,15 +34,23 @@ def main ():
                 location = bike.ride(location, distance, direction)
             else:
                 print("You are too tired to bike that far")
+                
+        elif choice == 2: #riding subway
+            line = input("Pick a line to ride (A, B, C, or D): ")
+            direction = input("Pick a direction to ride (up or down): ")
+            if remaining_fare >= 2.75:
+                remaining_fare -= 2.75 #deduct fare
+                location = subway.ride(location, line, direction) #update location
+            else:
+                print("Insufficient fare")
 
     return None
 
 def display_menu():
     print("TRANSPORTATION OPTIONS")
-    print("1) Ride subway")
-    print("2) Ride bicycle")
-    #add third transit option here
-    print("4) Quit")
+    print("1) Ride bike")
+    print("2) Ride subway")
+    print("3) Quit")
     return None
 
 #call main function to run the program
