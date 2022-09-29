@@ -2,7 +2,7 @@
 from random import choice #makes choice function from random module available
 LINES = ["A","B","C","D"] #ALL CAPS indicates a variable is a constant
 
-def ride(loc, line, direction):
+def ride(loc, line, direction): 
     x = loc[0]
     y = loc[1]
     #x,y = loc #list expansion. Assigns x = loc[0] and y = loc[1].
@@ -19,7 +19,7 @@ def ride(loc, line, direction):
         elif direction == "down":
             y -= 8
     
-    location = [x,y]
+    location = [x,y] 
     return location
     #return [x,y] #a more succinct way to return the new location.
 
@@ -28,6 +28,6 @@ def ride(loc, line, direction):
 def next_train(loc):
     line = choice(LINES)
     direction = choice(["up","down"])
-
     new_location = ride(loc, line, direction)
     return new_location
+    #return ride(loc, line, direction) #a more succinct return statement
