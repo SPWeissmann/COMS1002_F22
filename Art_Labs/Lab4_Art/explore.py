@@ -18,6 +18,7 @@ def main ():
         #print user status 
         print("You are located at: ", location, sep="")
         print("Remaining fare: $", remaining_fare, sep="")
+        print("Remaining energy: ", energy, "%", sep="")
 
         #get user input
         display_menu()
