@@ -1,6 +1,7 @@
 # Art Section Lab 4 Guide
 For COMS 1002 Computing In Context  
-Author: Samuel Weissmann (spw2136) 
+Author: Samuel Weissmann (spw2136)
+Codesigned with Prof. Mark Santolucito
 
 TABLE OF CONTENTS  
 [1. Functions](#1-functions)  
@@ -50,7 +51,7 @@ In the code below, the parameters for `my_function()` are `par1` and `par2`. The
 ```python
 #function definition
 def my_function(par1, par2): #header
-    #do something with par1 and par2
+    #Do something with par1 and par2 here
     return None #return statement
 
 my_function(10, 20) #function_call
@@ -90,20 +91,25 @@ More information on modules can be found here: https://docs.python.org/3/tutoria
 ### 2.1. Importing 
 A module can be imported to a program using the `import` keyword. For modules that we write ourselves, as long as the module's .py file is in the same directory as the program importing it, it will import without any problems. See the code examples below for different ways of importing modules and functions. 
 
-Import random and makes all of its functions available:
+Import math and make all of its functions available:
 ```python
 import random
+
+math.sqrt(16) #returns 4
 ```
 
 Renaming an imported module:
 ```python
-import random as r
+import math as m #can access math as "m"
+
+m.sqrt(16)
 ```
 
 Importing only a specific function from a module:
 ```python
 from math import sqrt 
-#imports the square root function from the math module
+
+sqrt(16) #no longer need to reference math module to call sqrt() function.
 ```
 
 Calculating the square root of a random integer between 1 and 1,000:
@@ -114,8 +120,6 @@ from math import sqrt
 rand_num = r.randint(1,1000)
 rand_root = sqrt(rand_num)
 ```
-
-
 
 ## 3. Lab Assignment
 You are a new Columbia student who is exploring New York City for the first time. There are a ton of different options for getting around the city, all of which have their own pros and cons that make them good for some situations but less than ideal for others. You own a bicycle and want to learn how to ride the subway, but you also want to discover or invent other transportation options for navigating the city. 
@@ -147,12 +151,11 @@ explore.py is the main program that will import our modules and use their functi
   * Tracks and updates some resource required for your transportation method (e.g. fare, energy, fuel)
   * Takes in some user input that will dictate how your transportation option works 
   * Passes the information from the user input to your module's functions an __argument__ or __arguments__
-  * Updates the user's location based on what the function returns 
+  * Updates the user's location using the return value from your module's function.
 
 
 ## 4. What to Submit
 On Gradescope, __under the art section__, you should submit:  
-1) subway.py (provided)
-2) bicycle.py (created together during the lab)
-3) new_transit.py (a module for a new transit method written by you)
-4) explore.py (the main program, modified to import and use the above 3 modules)
+1) bicycle.py (provided/covered during lab)
+2) new_transit.py (a module for a new transit method written by you)
+3) explore.py (the main program, modified to import and use the above modules)
