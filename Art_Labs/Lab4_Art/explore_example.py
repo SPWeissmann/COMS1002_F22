@@ -6,7 +6,6 @@ A program that lets the user explore NYC
 '''
 import subway
 import bicycle as bike
-#import new_transit as 
 
 def main ():
     remaining_fare = 100 #decrease as one rides public transit 
