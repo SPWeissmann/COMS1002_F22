@@ -85,6 +85,7 @@ def my_function2(para1, para2):
 
 def my_function(para1, para2):
     #function body
+```
 
 #### 1.4.1. Print vs. Return
 A common point of confusion for new programmers is the difference between the `print()` function and a return statement. Print will print out some specified data to the user. A return statement will return some data to the point in the code where the function was originally called. A return statement will not be visible to the user unless its data is additionally printed. 
