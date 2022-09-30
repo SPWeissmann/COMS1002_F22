@@ -6,13 +6,13 @@ def ride(loc, distance, direction):
     #x,y = loc #list expansion. Assigns x = loc[0] and y = loc[1].
 
     #update x,y coordinates
-    if direction == "north":
+    if direction == "n":
         y += distance
-    elif direction == "east":
+    elif direction == "e":
         x += distance
-    elif direction == "south":
+    elif direction == "s":
         y -= distance
-    elif direction == "west":
+    elif direction == "w":
         x -= distance
 
     #return the new location
