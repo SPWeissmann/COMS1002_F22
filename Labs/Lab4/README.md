@@ -1,7 +1,7 @@
 # Lab 4 Reference
 Author: Sam Weissmann
 
-Reference for basic information regarding modules and functions. 
+Reference sheet for basic information about modules, functions, and imports.
 
 TABLE OF CONTENTS  
 [1. Functions](#1-functions)  
@@ -37,7 +37,7 @@ def my_function(par1, par2): #this line is the function header
     return None
 ```
 ### 1.3. Parameters and Arguments
-As mentioned above, a function is able to take in data. A datum that a function takes in is called a __parameter__, while the actual value of that datum is called the an __argument__. A function may take one, many, or no parameters at all.
+As mentioned above, a function is able to take in data. A datum that a function takes in is called a __parameter__, while the actual value of that datum is called an __argument__. A function may take one, many, or no parameters at all.
 
 
 In the code below, the parameters for `my_function()` are `par1` and `par2`. The arguments being passed in are the integers 10 and 20. `par1` and `par` will be available as variables with the values 10 and 20 respectively __within the function's body only__. 
@@ -67,18 +67,32 @@ def my_function(par1, par2=25): #header
     return None #return statement
 
 my_function(10) #function call
+#10 is assigned to the first parameter. The second parameter defaults to 25
 ```
 
 ### 1.4. Return Statements 
-Functions are able to return data back to the point in the program from where it was called. This is done using a __return statement__. Return statements use the `return` keyword followed by the data that will be returned. Not all functions need to return data, and in fact you can omit the return statement from the function body entirely. If you do, Python will have the function automatically return `None` by default. 
+Functions are able to return data back to the point in the program from where it was called. This is done using a __return statement__. Return statements use the `return` keyword followed by the data that will be returned. Not all functions need to return data, and in fact you can omit the return value or statement from the function body entirely. If you do, Python will have the function automatically return `None` by default. 
+
+All three functions below will return `None`
+```python
+def my_function(para1,para2):
+    #function body
+    return None
+
+def my_function2(para1, para2):
+    #function body
+    return
+
+def my_function(para1, para2):
+    #function body
 
 #### 1.4.1. Print vs. Return
-A common point of confusion for new programmers is the difference between the `print()` function and a return statement. A print statement will print out some specified data to the user. A return statement will return some data to the point in the code where the function was originally called. A return statement will not be visible to the user unless its data is additionally printed. 
+A common point of confusion for new programmers is the difference between the `print()` function and a return statement. Print will print out some specified data to the user. A return statement will return some data to the point in the code where the function was originally called. A return statement will not be visible to the user unless its data is additionally printed. 
 
 ## 2. Modules 
 Imagine you've written a useful function and you want to reuse it between different projects. How could you best accomplish this? Go into an old project and copy and paste the code into your new project every time you want it? Keep a seperate list of all your useful function definitions that you can copy from? Neither of these are ideal solutions.
 
-Fortunately, Python already has an easy way for us to do this using something called __modules__. A __module__ is a .py file that may contain function definitions and statements. We can bring a module into our program using the `import` keyword, which allows us to access all of the functions it contains. You've already encountered this in Homework 2 with the `random` module. Python has an expansive standard library of modules (including `random`) that can be imported into your programs. In addition to this, we can also write and import our own modules, which is what we will do in this lab.
+Fortunately, Python already has an easy way for us to do this using __modules__. A __module__ is a .py file that contains function definitions and statements. We can bring a module into our program using the `import` keyword, which allows us to access all of the functions it contains. You've already encountered this in Homework 2 with the `random` module. Python has an expansive standard library of modules (including `random`) that can be imported into your programs. In addition to this, we can also write and import our own modules, which is what we will do in this lab.
 
 More information on modules can be found here: https://docs.python.org/3/tutorial/modules.html
 
@@ -87,7 +101,7 @@ A module can be imported to a program using the `import` keyword. For modules th
 
 Import math and make all of its functions available:
 ```python
-import random
+import math
 
 math.sqrt(16) #returns 4
 ```
