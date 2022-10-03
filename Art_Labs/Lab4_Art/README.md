@@ -2,6 +2,7 @@
 For COMS 1002 Computing In Context  
 Author: Samuel Weissmann (spw2136)  
 Codesigned with Prof. Mark Santolucito
+Based on Lab 4 by Prof. Canon 
 
 TABLE OF CONTENTS  
 [1. Functions](#1-functions)  
