@@ -1,7 +1,7 @@
 # COMS 1002 Computing in Context Fall 2022
 Supplementary examples, code, and materials from lab sections, along with some art lab assignments. No homework or lab solutions will be uploaded to this repository.  
 
-## Index 
+Index   
 ### [General Labs](Labs)
 [Lab 4](Labs/Lab4)  
 
