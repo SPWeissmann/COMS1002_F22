@@ -10,6 +10,5 @@ Supplementary examples, code, and materials from lab sections, along with some a
 #### [Art Lab 4](Art_Labs/Lab4_Art/)  
 
 
-All code and materials are my own except where otherwise noted. 
-
+All code and materials are my own except where otherwise noted.   
 [Columbia University Computer Science Academic Honesty Policy](https://www.cs.columbia.edu/acad)
