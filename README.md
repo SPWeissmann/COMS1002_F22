@@ -13,4 +13,4 @@ Supplementary examples, code, and materials from lab sections, along with some a
 All code and materials are my own except where otherwise noted.  
 
 
-[Columbia University Computer Science Academic Honesty Policy](https://www.cs.columbia.edu/acad)
+[Columbia University Computer Science Academic Honesty Policy](https://www.cs.columbia.edu/academic/academic-honesty/)
