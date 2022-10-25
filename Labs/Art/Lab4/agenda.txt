@@ -1,0 +1,31 @@
+Sam Weissmann
+spw2136
+
+PLEASE SIGN IN WITH NAME + UNI BY DOOR
+
+TO COVER: 
+
+before starting 
+* stress and you're doing fine even if it doesn't feel like it 
+* break statements and global vars (do not use)
+  * constants
+
+functions 
+* why functions? 
+* libraries, modules, importing
+* conceptual: discuss flow of information and control on function call
+
+Lab 4
+* Walk through explore.py and bicycle.py
+  * how to define/write a function
+    * header, parameters/arguments, default parameters
+    * body, scope
+    * return statement
+      * omitting return, omitting return value, return none, return 0
+* concrete: review flow of control and information on function call through 
+  parameters and return statements in context of explore.py and bicycle.py
+
+* creating own module (new_transit.py)
+* explore_example.py with subway.py and bicycle.py are an example of finished lab
+
+Questions?

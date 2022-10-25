@@ -1,0 +1,30 @@
+Sam Weissmann
+spw2136@Columbia.edu 
+
+SIGN IN WITH YOUR UNI BY THE DOOR TO GET CREDIT FOR ATTENDING 
+
+AGENDA 
+
+* Loops 
+* * Discussion
+* * * loop equivalence
+* * For loop
+* * * range(), range args
+* * While loop
+* * * considerations/parts of a while loop (LCV, loop condition, updating LCV)
+
+* import statements 
+* * import _, import _  as _, from _ import _
+
+* Random
+* * randint()
+* * choice()
+* * Seed values
+
+* Lab 3
+* * Print() function args (sep, end)
+* * How to imitate and copy a design
+* * What to turn in
+* * Submission instructions 
+
+* Questions
